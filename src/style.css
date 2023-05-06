@@ -1,0 +1,120 @@
+html {
+	background-color: black;
+}
+
+body {
+	background-color: black;
+	color: white;
+	line-height: 1.5;
+	margin: 0;
+	font-family: sans-serif;
+}
+
+::selection {
+	background: #fcd5b8;
+}
+
+main {
+	padding-bottom: 12rem;
+}
+
+header,
+main,
+footer {
+	margin: 2rem 3rem;
+}
+
+img {
+	width: 100%;
+}
+
+p {
+	max-width: 72ch;
+}
+
+ul,
+ol {
+	padding-left: 18px;
+}
+
+code {
+	background: #0F1014;
+	color: #868690;
+}
+
+pre code {
+	overflow-x: scroll;
+	display: block;
+	padding: 10px;
+	-webkit-text-size-adjust: none;
+	max-width: 100%;
+}
+
+h1 {
+	font-weight: 700;
+}
+
+h2 {
+	font-weight: 500;
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+main a {
+	font-weight: bold;
+	color: #ffbb88;
+}
+
+main a:hover {
+	text-decoration: underline;
+}
+
+table {
+	margin-left: -0.4em;
+	-webkit-border-horizontal-spacing: 0.4em;
+}
+
+table td {
+	vertical-align: baseline;
+}
+
+hr {
+	line-height: 24px;
+	display: block;
+}
+
+nav>ul {
+	list-style: none;
+	padding-left: 0;
+	display: inline-flex;
+	gap: 1rem;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.nav-branding {
+	font-weight: 700;
+	font-size: 1.8rem;
+	padding-right: 0.7rem;
+}
+
+@media (max-width: 480px) {
+
+	header,
+	main,
+	footer {
+		margin: 1.5rem;
+	}
+}
+
+@media (min-width: 720px) {
+
+	header,
+	main,
+	footer {
+		margin: 2rem 6rem;
+	}
+}

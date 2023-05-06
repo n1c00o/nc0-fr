@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>{{ .Title }}</title>
+		<meta name="description" content="{{ .Description }}">
+		<meta name="keywords" content="nicolas,paul,nc0,n1c00o,{{ .Keywords }}">
+		<meta name="author" content="{{ .Author }}">
+		<meta name="generator" content="{{ .Generator }}">
+		<meta name="color-scheme" content="dark" />
+		<meta name="theme-color" content="#000000">
+		<meta name="theme-color" content="#000000"
+			media="(prefers-color-scheme: dark)">
+		<meta name="robots" content="all" />
+		<meta name="twitter:card" content="summary_large_image" />
+		<meta name="twitter:site" content="@ncs_pl" />
+		<meta name="twitter:title" content="{{ .Title }}" />
+		<meta name="twitter:description" content="{{ .Description }}" />
+		<meta name="twitter:image"
+			content="{{ .Site }}/assets/unsplash-x3kQTL7yw30-2400x1601.jpg" />
+		<meta name="twitter:image:alt"
+			content="Shapes out shape. Reality morphed in to perception. What you see is what you perceive is what you see">
+		<meta property="og:title" content="{{ .Title }}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:image"
+			content="{{ .Site }}/assets/unsplash-x3kQTL7yw30-2400x1601.jpg" />
+		<meta property="og:image:width" content="2400">
+		<meta property="og:image:height" content="1601">
+		<meta property="og:image:type" content="image/jpeg">
+		<meta property="og:image:alt"
+			content="Shapes out shape. Reality morphed in to perception. What you see is what you perceive is what you see">
+		<meta property="og:url" content="{{ .Site }}{{ .Slug }}" />
+		<meta property="og:description" content="{{ .Description }}" />
+		<meta property="og:determiner" content="" />
+		<meta property="og:locale" content="en" />
+		<meta property="og:site_name" content="nc0.fr" />
+		<link rel="sitemap" href="{{ .Site }}/sitemap.xml">
+		<link rel="canonical" href="{{ .Site }}{{ .Slug }}">
+		<link rel="manifest" href="{{ .Site }}/site.webmanifest">
+		<link rel="stylesheet" href="{{ .Site }}/style.css">
+	</head>
+	<body>
+		<header>
+			<nav>
+				<ul>
+					<li class="nav-branding"><strong>~nc0.fr</strong></li>
+					<li><a href="{{ .Site }}/index.html">home</a></li>
+					<li><a href="{{ .Site }}/blog/index.html">blog</a></li>
+					<li><a href="{{ .Site }}/work/index.html">work</a></li>
+					<li><a href="{{ .Site }}/about.html">about</a></li>
+					<li><a href="mailto:n@nc0.fr">contact</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			{{ .Content }}
+		</main>
+		<br>
+		<br>
+		<footer>
+			<nav>
+				<ul>
+					<li><strong>© 2023</strong></li>
+					<li><a href="mailto:n@nc0.fr">contact</a></li>
+					<li><a href="https://github.com/n1c00o"
+							target="_blank">github</a></li>
+					<li><a href="https://twitter.com/@ncs_pl"
+							target="_blank">twitter</a></li>
+				</ul>
+			</nav>
+		</footer>
+	</body>
+</html>
