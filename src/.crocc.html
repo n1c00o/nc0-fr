@@ -9,8 +9,8 @@
 		<meta name="author" content="{{ .Author }}">
 		<meta name="generator" content="{{ .Generator }}">
 		<meta name="color-scheme" content="dark" />
-		<meta name="theme-color" content="#000000">
-		<meta name="theme-color" content="#000000"
+		<meta name="theme-color" content="#28252f">
+		<meta name="theme-color" content="#28252f"
 			media="(prefers-color-scheme: dark)">
 		<meta name="robots" content="all" />
 		<meta name="twitter:card" content="summary_large_image" />
@@ -43,31 +43,38 @@
 	<body>
 		<header>
 			<nav>
-				<ul>
-					<li class="nav-branding"><strong>~nc0.fr</strong></li>
-					<li><a href="{{ .Site }}/index.html">home</a></li>
-					<li><a href="{{ .Site }}/blog/index.html">blog</a></li>
-					<li><a href="{{ .Site }}/work/index.html">work</a></li>
-					<li><a href="{{ .Site }}/about.html">about</a></li>
-					<li><a href="mailto:n@nc0.fr">contact</a></li>
-				</ul>
+				<a href="{{ .Site }}/index.html">home</a>
+				<a href="{{ .Site }}/blog/index.html">blog</a>
+				<a href="{{ .Site }}/work/index.html">work</a>
+				<a href="{{ .Site }}/about.html">about</a>
 			</nav>
+			<hr>
+			<br>
 		</header>
 		<main>
 			{{ .Content }}
 		</main>
-		<br>
-		<br>
 		<footer>
-			<nav>
-				<ul>
-					<li><strong>© 2023</strong></li>
-					<li><a href="mailto:n@nc0.fr">contact</a></li>
-					<li><a href="https://github.com/n1c00o"
-							target="_blank">github</a></li>
-					<li><a href="https://twitter.com/@ncs_pl"
-							target="_blank">twitter</a></li>
-				</ul>
+			<br>
+			<br>
+			<hr>
+			<nav class="footer">
+				<div class="footer-start">
+					<a href="https://twitter.com/@ncs_pl"
+						target="_blank">twitter</a>
+					<br>
+					<a href="https://github.com/n1c00o"
+						target="_blank">github</a>
+					<br>
+					<a href="mailto:n@nc0.fr">mail</a>
+				</div>
+				<div class="footer-end">
+					© 2023, Nicolas Paul.
+					<br>
+					Unless otherwise noted, content on this site is governed by
+					a license notice that can be found <a
+						href="{{ .Site }}/licenses.html">here</a>.
+				</div>
 			</nav>
 		</footer>
 	</body>

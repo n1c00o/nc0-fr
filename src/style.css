@@ -1,120 +1,112 @@
-html {
-	background-color: black;
-}
-
 body {
-	background-color: black;
+	background-color: #28252f;
+	margin: 0px auto;
+	padding: 8px;
+	max-width: 600px;
 	color: white;
-	line-height: 1.5;
-	margin: 0;
-	font-family: sans-serif;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-::selection {
-	background: #fcd5b8;
+textarea,
+input[type=text],
+input[type=password] {
+	font-size: inherit;
+	font-family: inherit;
+	background-color: #403853;
+	color: inherit;
 }
 
-main {
-	padding-bottom: 12rem;
+textarea {
+	padding: .5rem;
+	width: 100%;
+	box-sizing: border-box;
 }
 
-header,
-main,
-footer {
-	margin: 2rem 3rem;
+blockquote {
+	font-style: italic;
+}
+
+h1,
+h2,
+h3,
+pre {
+	color: gold;
 }
 
 img {
 	width: 100%;
 }
 
-p {
-	max-width: 72ch;
-}
-
-ul,
-ol {
-	padding-left: 18px;
-}
-
-code {
-	background: #0F1014;
-	color: #868690;
-}
-
-pre code {
-	overflow-x: scroll;
-	display: block;
-	padding: 10px;
-	-webkit-text-size-adjust: none;
-	max-width: 100%;
-}
-
-h1 {
-	font-weight: 700;
-}
-
-h2 {
-	font-weight: 500;
+hr {
+	border-top: 1px dashed gold;
+	border-left: none;
+	border-right: none;
+	border-bottom: none;
 }
 
 a {
 	text-decoration: none;
-	color: white;
 }
 
-main a {
-	font-weight: bold;
-	color: #ffbb88;
+a:visited {
+	color: #a097b3;
 }
 
-main a:hover {
+a:link {
+	color: #3395ff;
+}
+
+a:hover {
 	text-decoration: underline;
 }
 
-table {
-	margin-left: -0.4em;
-	-webkit-border-horizontal-spacing: 0.4em;
+.footer {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
 }
 
-table td {
-	vertical-align: baseline;
+.footer-start {
+	text-align: left;
 }
 
-hr {
-	line-height: 24px;
-	display: block;
+.footer-end {
+	text-align: right;
 }
 
-nav>ul {
-	list-style: none;
-	padding-left: 0;
-	display: inline-flex;
-	gap: 1rem;
-	flex-wrap: wrap;
-	align-items: center;
-}
-
-.nav-branding {
-	font-weight: 700;
-	font-size: 1.8rem;
-	padding-right: 0.7rem;
-}
-
-@media (max-width: 480px) {
-
-	header,
-	main,
-	footer {
-		margin: 1.5rem;
+@media (prefers-color-scheme: light) {
+	body {
+		background-color: #e8e8e8;
+		color: black;
 	}
-}
 
-@media (min-width: 720px) {
+	h1,
+	h2,
+	h3 {
+		color: #795CB2;
+	}
 
-	header,
-	main,
-	footer {
-		margin: 2rem 6rem;
+	textarea,
+	input[type=text],
+	input[type=password] {
+		background-color: #e8e8e8;
+	}
+
+	a:visited {
+		color: #a097b3;
+	}
+
+	a:link {
+		color: #3395ff;
+	}
+
+	h1,
+	h2,
+	h3,
+	pre {
+		color: #795CB2;
+	}
+
+	hr {
+		border-top: 1px dashed #795CB2;
 	}
 }
