@@ -1,7 +1,7 @@
 {
 	"name": "Nicolas Paul",
 	"short_name": "nc0.fr",
-	"theme_color": "#000000",
-	"background_color": "#ffffff",
+	"theme_color": "#28252f",
+	"background_color": "#28252f",
 	"display": "standalone"
 }
