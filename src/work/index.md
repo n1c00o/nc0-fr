@@ -17,4 +17,6 @@ author: Nicolas Paul
 # Work
 
 - [**staticgovanityurls**](/work/staticgovanityurls.html): Simple scripts to 
-  generate static documents to use custom domain names in Go import paths
+  generate static documents to use custom domain names in Go import paths.
+- [**crocc**](/work/crocc.html): Crocc is a simple and fast static-site 
+  generator based on Markdown.
