@@ -1,8 +1,8 @@
 ---
-title: Hello World
-description: This is a simple example of a Markdown document.
-publication_time: 2020-01-01T00:00:00Z
-last_update_time: 2020-01-01T03:00:00Z
+title: About
+description: Everything about myself and this site.
+publication_time: 2023-05-08T10:48:00Z
+#last_update_time: 2020-01-01T03:00:00Z
 keywords: [example, hello, world]
 author: Nicolas Paul
 ---

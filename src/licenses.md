@@ -1,9 +1,16 @@
 ---
 title: Licenses
 description: Licenses for the content of this website.
-publication_time: 2020-01-01T00:00:00Z
-#last_update_time: 2020-01-01T03:00:00Z
-keywords: []
+publication_time: 2023-07-01T12:02:00Z
+last_update_time: 2023-07-01T12:02:00Z
+keywords:
+  - license
+  - permissive
+  - notice
+  - mit
+  - bsd
+  - cc-by-sa-4
+  - creative commons
 author: Nicolas Paul
 ---
 # Licenses
