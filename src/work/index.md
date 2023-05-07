@@ -14,6 +14,6 @@ author: Nicolas Paul
 ---
 # Work
 
-There is nothing here yet.
+There is nothing here yet. (TODO)
 
 ![Homer Simpsons eating a donuts a on nuclear power plant control panel](/assets/giphy-4oHyOIBIt57ag.gif)

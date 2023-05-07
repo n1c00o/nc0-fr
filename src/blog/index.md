@@ -12,6 +12,6 @@ author: Nicolas Paul
 ---
 # Work
 
-There is nothing here yet.
+There is nothing here yet. (TODO)
 
 ![A tumbleweed moving as the wind blows](/assets/giphy-2JUwr3tnfiQJa.gif)
