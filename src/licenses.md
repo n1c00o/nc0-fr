@@ -18,13 +18,10 @@ author: Nicolas Paul
 Copyright (c) 2023 Nicolas Paul
 
 Unless otherwise noted, the content of this website is licensed under the 
-[Creative Commons Attribution-ShareAlike 4.0 International License](cc-by-sa-4)
+[Creative Commons Attribution-ShareAlike 4.0 International License](/LICENSE-CC-BY-SA-40.txt)
 license.
 
-The code snippets are available under the [MIT License](mit).
+The code snippets are available under the [MIT License](/LICENSE-MIT.txt).
 
 Some content may be available under different licenses. In this case, the
 license is specified in the content itself.
-
-[cc-by-sa-4]: LICENSE-CC-BY-SA-40.txt
-[mit]: LICENSE-MIT.txt
