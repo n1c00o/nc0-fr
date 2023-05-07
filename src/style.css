@@ -56,6 +56,10 @@ a:link {
 	color: #3395ff;
 }
 
+::selection {
+	background-color: #f6eaa4;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -75,38 +79,42 @@ a:hover {
 
 @media (prefers-color-scheme: light) {
 	body {
-		background-color: #e8e8e8;
+		background-color: #fbf1c7;
 		color: black;
 	}
 
 	h1,
 	h2,
 	h3 {
-		color: #795CB2;
+		color: #98971a;
 	}
 
 	textarea,
 	input[type=text],
 	input[type=password] {
-		background-color: #e8e8e8;
+		background-color: #fbf1c7;
 	}
 
 	a:visited {
-		color: #a097b3;
+		color: #689d6a;
 	}
 
 	a:link {
-		color: #3395ff;
+		color: #79740e;
 	}
 
 	h1,
 	h2,
 	h3,
 	pre {
-		color: #795CB2;
+		color: #98971a;
 	}
 
 	hr {
-		border-top: 1px dashed #795CB2;
+		border-top: 1px dashed #98971a;
+	}
+
+	::selection {
+		background-color: #d79921;
 	}
 }
