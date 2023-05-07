@@ -29,6 +29,6 @@ In fact, Crocc is what I use to build this website.
 
 ## Metadata
 
-Website: <https://crocc.nc0.fr>
-Source: <https://github.com/n1c00o/crocc>
+Website: <https://crocc.nc0.fr> \
+Source: <https://github.com/n1c00o/crocc> \
 License: [BSD 3-Clause](https://github.com/n1c00o/crocc/blob/master/LICENSE)

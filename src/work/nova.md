@@ -31,6 +31,6 @@ and operations easier.
 
 ## Metadata
 
-Website: `N/A`
-Source: <https://github.com/discordnova/Nova>
+Website: `N/A` \
+Source: <https://github.com/discordnova/Nova> \
 License: [Apache-2.0](https://github.com/discordnova/Nova/blob/master/LICENSE)

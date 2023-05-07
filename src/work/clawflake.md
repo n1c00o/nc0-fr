@@ -28,6 +28,6 @@ Clawflake is also a format, with special patches from Snowflakes.
 
 ## Metadata
 
-Website: <https://nc0.fr/work/clawflake>
-Source: <https://github.com/n1c00o/clawflake>
+Website: <https://nc0.fr/work/clawflake> \
+Source: <https://github.com/n1c00o/clawflake> \
 License: [BSD 3-Clause](https://github.com/n1c00o/clawflake/blob/master/LICENSE)

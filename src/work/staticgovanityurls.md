@@ -29,6 +29,6 @@ This is what I use for [`go.nc0.fr`](https://go.nc0.fr).
 
 ## Metadata
 
-Website: <https://nc0.fr/work/staticgovanityurls.html>
-Source: <https://github.com/n1c00o/staticgovanityurls>
+Website: <https://nc0.fr/work/staticgovanityurls.html> \
+Source: <https://github.com/n1c00o/staticgovanityurls> \
 License: [BSD 3-Clause](https://github.com/n1c00o/staticgovanityurls/blob/master/LICENSE)
