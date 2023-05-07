@@ -12,11 +12,11 @@ jobs:
       - name: Setup Go
         uses: actions/setup-go@v4
         with:
-          go-version: 1.20
+          go-version: "1.20"
       - name: Setup Python
         uses: actions/setup-python@v2
         with:
-          python-version: 3.11
+          python-version: "3.11"
       - name: Install dependencies
         run: |
           go install go.nc0.fr/crocc@latest
