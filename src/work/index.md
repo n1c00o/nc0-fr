@@ -20,3 +20,7 @@ author: Nicolas Paul
   generate static documents to use custom domain names in Go import paths.
 - [**crocc**](/work/crocc.html): Crocc is a simple and fast static-site 
   generator based on Markdown.
+- [**Nova**](/work/nova.html): Nova is a complete and polyglot framework to 
+  build cloud-native, robust and reliable Discord bots.
+
+You may also be interested in my [GitHub profile](https://github.com/n1c00o).
