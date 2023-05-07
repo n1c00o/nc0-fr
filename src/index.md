@@ -16,7 +16,8 @@ twitter: <https://twitter.com/ncs_pl> \
 
 ## Selected works
 
-TODO
+- [**staticgovanityurls**](/work/staticgovanityurls.html): Simple scripts to 
+  generate static documents to use custom domain names in Go import paths
 
 ## Blog
 

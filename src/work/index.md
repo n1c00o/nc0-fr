@@ -12,8 +12,9 @@ keywords:
   - programming
 author: Nicolas Paul
 ---
+![Homer Simpsons eating a donuts a on nuclear power plant control panel](/assets/giphy-4oHyOIBIt57ag.gif)
+
 # Work
 
-There is nothing here yet. (TODO)
-
-![Homer Simpsons eating a donuts a on nuclear power plant control panel](/assets/giphy-4oHyOIBIt57ag.gif)
+- [**staticgovanityurls**](/work/staticgovanityurls.html): Simple scripts to 
+  generate static documents to use custom domain names in Go import paths
