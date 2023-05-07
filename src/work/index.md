@@ -22,5 +22,7 @@ author: Nicolas Paul
   generator based on Markdown.
 - [**Nova**](/work/nova.html): Nova is a complete and polyglot framework to 
   build cloud-native, robust and reliable Discord bots.
+- [**clawflake**](/work/clawflake.html): Clawflake ID generation system with 
+  time-sortable keys.
 
 You may also be interested in my [GitHub profile](https://github.com/n1c00o).
