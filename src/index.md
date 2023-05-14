@@ -31,7 +31,7 @@ twitter: <https://twitter.com/ncs_pl> \
 
 TODO
 
-## GPG
+## PGP
 
 ```bash
 -----BEGIN PGP PUBLIC KEY BLOCK-----
