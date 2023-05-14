@@ -14,6 +14,8 @@ author: Nicolas Paul
 ---
 ![Homer Simpsons eating a donuts a on nuclear power plant control panel](/assets/giphy-4oHyOIBIt57ag.gif)
 
+*(from [Giphy](https://giphy.com/gifs/4oHyOIBIt57ag))*
+
 # Work
 
 - [**staticgovanityurls**](/work/staticgovanityurls.html): Simple scripts to 

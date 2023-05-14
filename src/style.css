@@ -84,12 +84,6 @@ a:hover {
 		color: black;
 	}
 
-	h1,
-	h2,
-	h3 {
-		color: #98971a;
-	}
-
 	textarea,
 	input[type=text],
 	input[type=password] {
@@ -107,7 +101,7 @@ a:hover {
 	h1,
 	h2,
 	h3,
-	pre {
+	code {
 		color: #98971a;
 	}
 

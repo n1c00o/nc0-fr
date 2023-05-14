@@ -10,8 +10,10 @@ keywords:
   - journal
 author: Nicolas Paul
 ---
-# Work
+# Blog
 
 There is nothing here yet. (TODO)
 
 ![A tumbleweed moving as the wind blows](/assets/giphy-2JUwr3tnfiQJa.gif)
+
+*(from [Giphy](https://giphy.com/gifs/2JUwr3tnfiQJa))*
