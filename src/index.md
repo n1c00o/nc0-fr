@@ -13,6 +13,7 @@ I do software engineering and Internet stuff.
 mail: <mailto:n@nc0.fr> \
 github: <https://github.com/n1c00o> \
 twitter: <https://twitter.com/ncs_pl> \
+pgp: <https://nc0.fr/pgp.txt> \
 
 ## Selected works
 
@@ -31,20 +32,3 @@ twitter: <https://twitter.com/ncs_pl> \
 
 TODO
 
-## PGP
-
-```bash
------BEGIN PGP PUBLIC KEY BLOCK-----
-
-mDMEY/EOJRYJKwYBBAHaRw8BAQdASutsFfwDMihEwyriIBG4djkKHYMlJ6Sliwd6
-O9qXuei0F05pY29sYXMgUGF1bCA8bkBuYzAuZnI+iJMEExYKADsWIQQywdjml6uo
-8Xvk4NfBR47HHm5pIwUCY/EOJQIbAwULCQgHAgIiAgYVCgkICwIEFgIDAQIeBwIX
-gAAKCRDBR47HHm5pIy42AQCBjyn99HU6nnvWBBdUDFMqURdbXcEacK5UxUg1t7vY
-rQEAq7HQ4yzeO/HBqamm6gHApA7r0tKa14n+4A7oM3dGAQO4OARj8Q4lEgorBgEE
-AZdVAQUBAQdAq8GyVP4fT3sfdLEGprNK6k1d3NdmxLYNdA6AqarPfUADAQgHiHgE
-GBYKACAWIQQywdjml6uo8Xvk4NfBR47HHm5pIwUCY/EOJQIbDAAKCRDBR47HHm5p
-I/hoAQDEYmBbqJOSyn7K1NW8k/kKA19Jdx3m+SADBnogBN1x7wD+NMDIYBdsZ/PL
-luryZn2s8lrE932qtchyg58xsGFYTgU=
-=Vk1G
------END PGP PUBLIC KEY BLOCK-----
-```
