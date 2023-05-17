@@ -1,10 +1,17 @@
 body {
-	background-color: #28252f;
+	background-color: #fff;
 	margin: 0px auto;
 	padding: 8px;
 	max-width: 600px;
-	color: white;
+	color: #000;
 	font-family: monospace;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #1e1c1c;
+		color: #fff;
+	}
 }
 
 textarea,
@@ -12,7 +19,7 @@ input[type=text],
 input[type=password] {
 	font-size: inherit;
 	font-family: inherit;
-	background-color: #403853;
+	background-color: #fbf1c7;
 	color: inherit;
 }
 
@@ -31,7 +38,7 @@ h2,
 h3,
 pre,
 code {
-	color: gold;
+	color: #98971a;
 }
 
 img {
@@ -39,7 +46,7 @@ img {
 }
 
 hr {
-	border-top: 1px dashed gold;
+	border-top: 1px dashed #98971a;
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
@@ -50,15 +57,15 @@ a {
 }
 
 a:visited {
-	color: #a097b3;
+	color: #79740e;
 }
 
 a:link {
-	color: #3395ff;
+	color: #aca413;
 }
 
 ::selection {
-	background-color: #f6eaa4;
+	background-color: #E8F3E8;
 }
 
 a:hover {
@@ -76,40 +83,4 @@ a:hover {
 
 .footer-end {
 	text-align: right;
-}
-
-@media (prefers-color-scheme: light) {
-	body {
-		background-color: #fbf1c7;
-		color: black;
-	}
-
-	textarea,
-	input[type=text],
-	input[type=password] {
-		background-color: #fbf1c7;
-	}
-
-	a:visited {
-		color: #689d6a;
-	}
-
-	a:link {
-		color: #79740e;
-	}
-
-	h1,
-	h2,
-	h3,
-	code {
-		color: #98971a;
-	}
-
-	hr {
-		border-top: 1px dashed #98971a;
-	}
-
-	::selection {
-		background-color: #d79921;
-	}
 }
