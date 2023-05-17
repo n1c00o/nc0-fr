@@ -1,6 +1,6 @@
 @font-face {
-  font-family: 'Noto Sans Mono';
-  src: url('assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf') format('truetype');
+	font-family: 'Noto Sans Mono';
+	src: url('assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf') format('truetype');
 }
 
 body {
@@ -10,13 +10,6 @@ body {
 	max-width: 600px;
 	color: #000;
 	font-family: 'Noto Sans Mono', monospace;
-}
-
-@media (prefers-color-scheme: dark) {
-	body {
-		background-color: #1e1c1c;
-		color: #fff;
-	}
 }
 
 textarea,
@@ -43,7 +36,7 @@ h2,
 h3,
 pre,
 code {
-	color: #98971a;
+	color: #5E9F52;
 }
 
 img {
@@ -51,7 +44,7 @@ img {
 }
 
 hr {
-	border-top: 1px dashed #98971a;
+	border-top: 1px dashed #5E9F52;
 	border-left: none;
 	border-right: none;
 	border-bottom: none;
@@ -62,11 +55,11 @@ a {
 }
 
 a:visited {
-	color: #79740e;
+	color: #90C47D;
 }
 
 a:link {
-	color: #aca413;
+	color: #5E9F52;
 }
 
 ::selection {
