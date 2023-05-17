@@ -1,10 +1,15 @@
+@font-face {
+  font-family: 'Noto Sans Mono';
+  src: url('assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf') format('truetype');
+}
+
 body {
 	background-color: #fff;
 	margin: 0px auto;
 	padding: 8px;
 	max-width: 600px;
 	color: #000;
-	font-family: monospace;
+	font-family: 'Noto Sans Mono', monospace;
 }
 
 @media (prefers-color-scheme: dark) {
