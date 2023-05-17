@@ -10,10 +10,10 @@ author: Nicolas Paul
 Hi, I'm Nicolas.
 I do software engineering and Internet stuff.
 
-mail: <mailto:n@nc0.fr> \
-github: <https://github.com/n1c00o> \
-twitter: <https://twitter.com/ncs_pl> \
-pgp: <https://nc0.fr/pgp.txt> \
+mail: [n@nc0.fr](mailto:n@nc0.fr) \
+github: [n1c00o](https://github.com/n1c00o) \
+twitter: [@ncs_pl](https://twitter.com/ncs_pl) \
+pgp: [`32C1D8E697ABA8F17BE4E0D7C1478EC71E6E6923`](https://nc0.fr/pgp.txt) \
 
 ## Selected works
 
@@ -30,5 +30,4 @@ pgp: <https://nc0.fr/pgp.txt> \
 
 ## Blog
 
-TODO
-
+TODO(nc0): Start blogging!
