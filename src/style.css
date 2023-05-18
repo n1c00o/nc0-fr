@@ -1,69 +1,46 @@
-@font-face {
-	font-family: 'Noto Sans Mono';
-	src: url('assets/fonts/Noto_Sans_Mono/NotoSansMono-VariableFont_wdth\,wght.ttf') format('truetype');
+:root {
+	--bg: white;
+	--text: black;
 }
 
 body {
-	background-color: #fff;
+	background-color: var(--bg);
 	margin: 0px auto;
 	padding: 8px;
 	max-width: 600px;
-	color: #000;
-	font-family: 'Noto Sans Mono', monospace;
-}
-
-textarea,
-input[type=text],
-input[type=password] {
-	font-size: inherit;
-	font-family: inherit;
-	background-color: #fbf1c7;
-	color: inherit;
-}
-
-textarea {
-	padding: .5rem;
-	width: 100%;
-	box-sizing: border-box;
+	color: var(--text);
+	font-family: system-ui, -apple-system, sans-serif;
 }
 
 blockquote {
 	font-style: italic;
 }
 
-h1,
-h2,
-h3,
-pre,
-code {
-	color: #5E9F52;
-}
-
 img {
 	width: 100%;
 }
 
-hr {
-	border-top: 1px dashed #5E9F52;
-	border-left: none;
-	border-right: none;
-	border-bottom: none;
-}
-
 a {
-	text-decoration: none;
-}
-
-a:visited {
-	color: #90C47D;
-}
-
-a:link {
-	color: #5E9F52;
+	text-decoration: underline;
+	color: var(--text);
 }
 
 ::selection {
-	background-color: #E8F3E8;
+	background-color: var(--text);
+	color: var(--bg);
+}
+
+pre {
+	background-color: var(--text);
+	padding: 15px;
+	font-family: monospace;
+	color: var(--bg);
+}
+
+pre::selection,
+code::selection {
+	background-color: var(--bg);
+	color: var(--text);
 }
 
 a:hover {
@@ -81,4 +58,11 @@ a:hover {
 
 .footer-end {
 	text-align: right;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root {
+		--bg: black;
+		--text: white;
+	}
 }
