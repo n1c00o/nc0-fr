@@ -51,6 +51,8 @@ code::selection {
 
 code {
 	font-family: var(--mono);
+	background-color: var(--text);
+	color: var(--bg);
 }
 
 blockquote {
