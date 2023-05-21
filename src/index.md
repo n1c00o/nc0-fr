@@ -13,7 +13,7 @@ I do software engineering and Internet stuff.
 mail: [n@nc0.fr](mailto:n@nc0.fr) \
 github: [n1c00o](https://github.com/n1c00o) \
 twitter: [@ncs_pl](https://twitter.com/ncs_pl) \
-pgp: [`32C1D8E697ABA8F17BE4E0D7C1478EC71E6E6923`](https://nc0.fr/pgp.txt) \
+pgp: [`32C1 D8E6 97AB A8F1 7BE4 E0D7 C147 8EC7 1E6E 6923`](https://nc0.fr/pgp.txt) \
 
 ## Selected works
 

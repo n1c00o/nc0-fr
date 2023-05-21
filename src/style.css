@@ -1,26 +1,32 @@
 :root {
-	--bg: white;
-	--text: black;
+	--bg: #000000;
+	--text: #ffffff;
+	--sans: 'Noto Sans';
+	--mono: 'Noto Sans Mono';
 }
 
 body {
 	background-color: var(--bg);
-	margin: 0px auto;
+	margin: 0 auto;
 	padding: 8px;
-	max-width: 600px;
+	max-width: 800px;
 	color: var(--text);
-	font-family: system-ui, -apple-system, sans-serif;
-}
-
-blockquote {
-	font-style: italic;
+	font-family: var(--sans);
+	font-size: 18px;
 }
 
 img {
 	width: 100%;
 }
 
-a {
+hr {
+	height: 1px;
+	border: 0;
+	border-top: 1px solid var(--text);
+}
+
+a,
+a:hover {
 	text-decoration: underline;
 	color: var(--text);
 }
@@ -33,7 +39,7 @@ a {
 pre {
 	background-color: var(--text);
 	padding: 15px;
-	font-family: monospace;
+	font-family: var(--mono);
 	color: var(--bg);
 }
 
@@ -43,26 +49,30 @@ code::selection {
 	color: var(--text);
 }
 
-a:hover {
-	text-decoration: underline;
+code {
+	font-family: var(--mono);
 }
 
+blockquote {
+	border: 1px var(--text);
+	border-left: 2px solid var(--text);
+	border-right-width: 2px;
+	margin: 0 0 10px;
+	padding: 0 0 0 12px;
+	font-size: 20px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-size: 28px;
+	font-family: var(--sans);
+}
+
+.header,
 .footer {
-	display: grid;
-	grid-template-columns: 1fr 1fr;
-}
-
-.footer-start {
-	text-align: left;
-}
-
-.footer-end {
-	text-align: right;
-}
-
-@media (prefers-color-scheme: dark) {
-	:root {
-		--bg: black;
-		--text: white;
-	}
+	font-family: var(--mono);
 }

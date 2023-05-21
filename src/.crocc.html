@@ -5,45 +5,51 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<title>{{ .Title }}</title>
 		<meta name="description" content="{{ .Description }}">
-		<meta name="keywords" content="nicolas,paul,nc0,n1c00o,{{ .Keywords }}">
+		<meta name="keywords" 
+			content="nicolas,paul,nc0,n1c00o,{{ .Keywords }}">
 		<meta name="author" content="{{ .Author }}">
 		<meta name="generator" content="{{ .Generator }}">
-		<meta name="color-scheme" content="only light" />
-		<meta name="theme-color" content="#ffffff">
+		<meta name="theme-color" content="#000000">
 		<meta name="robots" content="all" />
 		<meta name="twitter:card" content="summary_large_image" />
 		<meta name="twitter:site" content="@ncs_pl" />
 		<meta name="twitter:title" content="{{ .Title }}" />
 		<meta name="twitter:description" content="{{ .Description }}" />
-		<meta name="twitter:image" content="{{ .Site }}/assets/icon.jpeg" />
-		<meta name="twitter:image:alt"
-			content="The pink panther with a crown on its head.">
 		<meta property="og:title" content="{{ .Title }}" />
 		<meta property="og:type" content="website" />
-		<meta property="og:image" content="{{ .Site }}/assets/icon.jpeg" />
-		<meta property="og:image:width" content="460">
-		<meta property="og:image:height" content="460">
-		<meta property="og:image:type" content="image/jpeg">
-		<meta property="og:image:alt"
-			content="The pink panther with a crown on its head.">
 		<meta property="og:url" content="{{ .Site }}{{ .Slug }}" />
 		<meta property="og:description" content="{{ .Description }}" />
 		<meta property="og:determiner" content="" />
 		<meta property="og:locale" content="en" />
 		<meta property="og:site_name" content="nc0.fr" />
+		<link rel="apple-touch-icon" sizes="128x128" 
+			href="{{ .Site }}/favicon-128.png">
+		<link rel="icon" type="image/png" sizes="16x16" 
+			href="{{ .Site }}/favicon-16.png">
+		<link rel="icon" type="image/png" sizes="32x32" 
+			href="{{ .Site }}/favicon-32.png">
+		<link rel="icon" type="image/png" sizes="64x64" 
+			href="{{ .Site }}/favicon-64.png">
+		<link rel="icon" type="image/png" sizes="128x128" 
+			href="{{ .Site }}/favicon-128.png">
+		<link rel="icon" type="image/png" sizes="256x256" 
+			href="{{ .Site }}/favicon-256.png">
 		<link rel="sitemap" href="{{ .Site }}/sitemap.xml">
 		<link rel="canonical" href="{{ .Site }}{{ .Slug }}">
 		<link rel="manifest" href="{{ .Site }}/site.webmanifest">
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans">
+		<link rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono">
 		<link rel="stylesheet" href="{{ .Site }}/style.css">
 	</head>
 	<body>
-		<header>
+		<header class="header">
 			<nav>
-				<a href="{{ .Site }}/index.html">home</a>
-				<a href="{{ .Site }}/blog/index.html">blog</a>
-				<a href="{{ .Site }}/work/index.html">work</a>
+				<a href="{{ .Site }}/index.html">HOME</a>
+				<a href="{{ .Site }}/blog/index.html">BLOG</a>
+				<a href="{{ .Site }}/work/index.html">WORK</a>
 			</nav>
-			<hr>
 			<br>
 		</header>
 		<main>
@@ -52,24 +58,9 @@
 		<footer>
 			<br>
 			<br>
-			<hr>
 			<nav class="footer">
-				<div class="footer-start">
-					<a href="https://twitter.com/@ncs_pl"
-						target="_blank">twitter</a>
-					<br>
-					<a href="https://github.com/n1c00o"
-						target="_blank">github</a>
-					<br>
-					<a href="mailto:n@nc0.fr">mail</a>
-				</div>
-				<div class="footer-end">
-					© 2023, Nicolas Paul.
-					<br>
-					Unless otherwise noted, content on this site is governed by
-					a license notice that can be found <a
-						href="{{ .Site }}/licenses.html">here</a>.
-				</div>
+				© 2023 
+				<a href="{{ .Site }}/LICENSE-CC-BY-SA-40.txt">CC-BY-SA</a>
 			</nav>
 		</footer>
 	</body>
