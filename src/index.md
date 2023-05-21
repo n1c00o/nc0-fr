@@ -6,7 +6,6 @@ publication_time: 2023-05-07T12:13:00Z
 keywords: []
 author: Nicolas Paul
 ---
-
 Hi, I'm Nicolas.
 I do software engineering and Internet stuff.
 
